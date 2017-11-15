@@ -1,0 +1,18 @@
+$(document).ready(function(){
+   $("#link1").click(function(){
+      $path=$("#club").offset().top;
+      $('html').animate({scrollTop:$path},1000);
+   });
+   $("#link2").click(function(){
+      $path=$("#price").offset().top;
+      $('html').animate({scrollTop:$path},1000);
+   });
+   $("#link3").click(function(){
+      $path=$("#discount").offset().top;
+      $('html').animate({scrollTop:$path},1000);
+   });
+   $("#link4").click(function(){
+      $path=$("#contact").offset().top;
+      $('html').animate({scrollTop:$path},1000);
+   });
+});
